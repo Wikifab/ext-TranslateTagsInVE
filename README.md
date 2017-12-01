@@ -12,7 +12,7 @@ Installation
 
 1. clone UsersWatchList into the 'extensions' directory of your mediawiki installation
 2. add the folling Line to your LocalSettings.php file :
-> wfLoadExtension('TranslateTagsInVE');
+> wfLoadExtension('TranslateTagsInVe');
 
 
 Example

@@ -1,5 +1,5 @@
 {
-	"name": "TranslateTagsInVE",
+	"name": "TranslateTagsInVe",
 	"version": "1.0.0",
 	"author": [
 		"Pierre Boutet"
@@ -38,7 +38,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteExtPath": "TranslateTagsInVE"
+		"remoteExtPath": "TranslateTagsInVe"
 	},
 	"AutoloadClasses": {
 		"TranslateTagsInVE\\Hooks": "includes/Hooks.php"
