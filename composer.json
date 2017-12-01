@@ -1,6 +1,6 @@
 {
     "name": "wikifab/translate-tags-in-ve",
-    "description": "This is a mediawiki extension changes comments on translate tags in Visual Editor",
+    "description": "This is a mediawiki extension to change comments on translate tags in Visual Editor",
     "type": "mediawiki-extension",
     "require": {
     }
