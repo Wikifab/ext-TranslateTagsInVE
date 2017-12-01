@@ -1,0 +1,48 @@
+{
+	"name": "TranslateTagsInVE",
+	"version": "1.0.0",
+	"author": [
+		"Pierre Boutet"
+	],
+	"url": "https://github.com/wikifab",
+	"descriptionmsg": "ttive-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.28.0"
+	},
+	"MessagesDirs": {
+		"VEForPageForm": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"FormEdit::showEditForm:initial": [
+			"TranslateTagsInVE\\Hooks::start"
+		]
+	},
+	"ResourceModules": {
+		"ext.ttive.init": {
+			"scripts": [
+				"modules/ve.ui.translateTagContext.js",
+				"modules/ttive-init.js"
+			],
+			"styles": "modules/ttive.css",
+			"dependencies": [
+				"ext.visualEditor.core"
+			],
+			"messages": [
+				"ttive-translate-tag-informations-title",
+				"ttive-translate-tag-informations-text"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "TranslateTagsInVE"
+	},
+	"AutoloadClasses": {
+		"TranslateTagsInVE\\Hooks": "includes/Hooks.php"
+	},
+	"manifest_version": 1
+}

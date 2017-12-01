@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pierre Boutet"
+        ]
+    },
+	"ttive-desc": "extension pour ajouter un commentaire sur les tags translate dans Visual editor",
+	"ttive-translate-tag-informations-title" : "Ceci est un tag nécessaire pour la traduction",
+	"ttive-translate-tag-informations-text": "Ceci est un tag nécessaire pour la traduction. Veuillez ne pas le supprimer."
+}

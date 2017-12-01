@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pierre Boutet"
+        ]
+    },
+	"ttive-desc": "Add a comment on translate tags in Visual Editor",
+	"ttive-translate-tag-informations-title" : "This is a tag required for translation.",
+	"ttive-translate-tag-informations-text": "This is a tag required for translation. Please do not remove it."
+}
