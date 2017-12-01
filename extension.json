@@ -24,8 +24,7 @@
 	"ResourceModules": {
 		"ext.ttive.init": {
 			"scripts": [
-				"modules/ve.ui.translateTagContext.js",
-				"modules/ttive-init.js"
+				"modules/ve.ui.translateTagContext.js"
 			],
 			"styles": "modules/ttive.css",
 			"dependencies": [
