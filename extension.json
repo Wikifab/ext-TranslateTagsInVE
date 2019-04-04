@@ -12,7 +12,7 @@
 		"MediaWiki": ">= 1.28.0"
 	},
 	"MessagesDirs": {
-		"VEForPageForm": [
+		"TranslateTagsInVe": [
 			"i18n"
 		]
 	},
